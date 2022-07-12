@@ -1,0 +1,19 @@
+<div >
+  <h1>Login please!</h1>
+
+  <form #simpleForm="ngForm" (ngSubmit)="getUser(simpleForm.value)">
+  <input type="text" ngModel name="userName" placeholder="Enter name!" />
+  <br><br>
+  <input type="text" ngModel name="userPolicyNumber" placeholder="Enter policy number!" />
+  <br> <br>
+  <input type="date" ngModel name="userDate" placeholder="Enter date" />
+  <br><br>
+  <input type="number" ngModel name="userAmount" placeholder="Enter Amount!">
+  <br><br>
+  <input type="email" ngModel name="userEmail" placeholder="Email!">
+  <br><br>
+  <input type="number" ngModel name="userPhone" placeholder="Enter phone no.!">
+  <br><br>
+  <button>Click Me!</button>
+</form>
+</div>
